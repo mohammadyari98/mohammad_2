@@ -2,8 +2,9 @@ from tkinter import *
 from tkinter import messagebox
 win = Tk()
 win.geometry('300x450')
-win.configure(bg="brown")
+win.configure(bg="green")
 #====Function ================
+print('###########333')
 def insert():
     name = ent_name.get()  
     
